@@ -1,0 +1,14 @@
+1. Kiến trúc & Phân quyền (Shared Drive)
+Cấu trúc 2 cấp: Phân tách rõ ràng các thư mục Tech, Design, Business, và Public_Collab.
+
+Nguyên tắc tối thiểu: Dùng quyền Restricted (Hạn chế), áp dụng Least Privilege; không dùng link công khai (Anyone with the link).
+
+2. Xử lý I/O & Đồng bộ
+Files On-Demand: Tiết kiệm dung lượng SSD cục bộ (chỉ tải file khi cần).
+
+Chặn file rác: Bỏ qua node_modules khi đồng bộ code (khôi phục bằng npm install).
+
+3. Quy trình vận hành & Bảo mật
+Văn hóa Asynchronous: Chống "No-Hello", dùng Schedule Send ban đêm và bắt buộc Reply in Thread.
+
+Xử lý sự cố (Data Leak): Thu hồi quyền ngay lập tức, kiểm tra Audit Log và khôi phục từ Version History / Thùng rác (30 ngày).

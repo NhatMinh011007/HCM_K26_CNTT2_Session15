@@ -1,0 +1,17 @@
+Phần 1: Tại sao An vi phạm "Quy tắc Cờ Đỏ Bảo mật"?
+Cấp thừa quyền (Over-privilege): Gán quyền Editor cho CTV bên ngoài giúp họ có đầy đủ quyền sửa, xóa vĩnh viễn dữ liệu và chia sẻ file cho người khác.
+
+Mở cửa tự do (Unrestricted Access): Chế độ "Anyone with the link" biến tài liệu nội bộ chứa thông tin nhạy cảm (SĐT khách hàng) thành tệp công khai; bất kỳ ai có link đều có thể truy cập mà không cần xác thực danh tính.
+
+Phần 2: Cấu trúc phân quyền chuẩn & an toàn 100%
+Mức quyền cho Cộng tác viên (CTV):
+
+Gán quyền Commenter (nếu chỉ cần góp ý/đóng góp nội dung) hoặc Editor hạn chế (chỉ gán cho từng tài khoản email cụ thể của CTV, không gán qua link).
+
+Chế độ chia sẻ an toàn 100%:
+
+Chuyển từ "Anyone with the link" sang Restricted (Hạn chế). Chỉ những email được chỉ định đích danh mới có thể mở file.
+
+Tính năng cần bật để ngăn tự ý mời người lạ:
+
+Mở phần Cài đặt chia sẻ (icon bánh răng ⚙️) và tắt (uncheck) tùy chọn: "Editors can change permissions and share" (Người chỉnh sửa có thể thay đổi quyền và chia sẻ).

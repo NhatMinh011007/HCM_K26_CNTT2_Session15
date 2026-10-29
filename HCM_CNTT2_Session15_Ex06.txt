@@ -1,0 +1,10 @@
+1. Kiến trúc Lưu trữ & Phân quyền (IoT -> Cloud)
+   Lưu trữ: Nén dữ liệu cảm biến; dùng Files On-Demand chống đầy SSD; code quản lý qua Git.
+   Phân quyền:
+     Editor (Kỹ sư): Thao tác trên Source Code & API.
+     Viewer (Nông dân): Chỉ xem Báo cáo & Hướng dẫn.
+   Tự động hóa: Cảm biến báo lỗi $\rightarrow$ Webhook bắn tin nhắn tự động biến thành Task +                Deadline cho kỹ sư.
+2. Quy trình 3 bước xử lý rò rỉ dữ liệu (Data Leak)
+  1.Thu hồi: Khóa tài khoản nghi ngờ, đổi Shared Drive sang Restricted, đăng xuất từ xa.
+  2.Truy vết: Kiểm tra Audit Log (lọc sự kiện Download/Share) để tìm file lộ và IP can thiệp.
+  3.Thắt chặt: Tắt chế độ "Anyone with link", chặn Editor tự ý chia sẻ, đổi API Key hệ thống IoT.

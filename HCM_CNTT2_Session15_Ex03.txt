@@ -1,0 +1,12 @@
+1. Luồng dữ liệu I/O (Ctrl+S -> Tích xanh)
+  1.Ghi đĩa: Ctrl+S -> Ghi trực tiếp xuống SSD (tức thì).
+  2.Kích hoạt: Trình đồng bộ (OneDrive/Google Drive) phát hiện file thay đổi.
+  3.Lọc loại trừ:
+ -Thuộc node_modules -> Bỏ qua (tránh đơ máy/đầy bộ nhớ).
+ -Thuộc source code chính -> Cho phép đồng bộ.
+  4.Đẩy lên Cloud: Mã hóa, tải ngầm và tạo mốc lịch sử (Version History).
+  5.Hoàn tất: Hiện tích xanh & bật Files On-Demand để tối ưu SSD.
+2. Cấu trúc thư mục chuẩn
+ -Đồng bộ lên Cloud: src/ (code), docs/ (tài liệu), assets/ (hình ảnh) và package.json (danh sách thư viện).
+ -Chặn đồng bộ: node_modules/ (chỉ tải lại bằng npm install khi sang máy mới).
+ -Cốt lõi: Chỉ đồng bộ mã nguồn gốc, không đồng bộ file tự sinh.

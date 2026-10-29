@@ -1,0 +1,21 @@
+Phần 1: So sánh Zalo và Lark/Slack (Dạng văn bản)
+Cấu trúc tin nhắn: Zalo dùng luồng phẳng dễ trôi tin; Lark/Slack dùng Channel và Thread chia theo chủ đề riêng biệt.
+
+Quản lý Task: Zalo phải quản lý thủ công dễ quên; Lark/Slack tích hợp sẵn tính năng tạo Task và gán Deadline từ tin nhắn.
+
+Tìm kiếm dữ liệu: Zalo dễ mất file cũ; Lark/Slack lưu trữ và tìm kiếm vĩnh viễn, thông minh.
+
+Tách biệt ngữ cảnh: Zalo trộn lẫn việc công và việc tư (meme, tán gẫu); Lark/Slack phân tách thành các kênh chuyên biệt (#announcement, #project, #random).
+
+Bảo mật & Quản trị: Zalo khó kiểm soát khi nhân sự nghỉ; Lark/Slack quản lý tập trung và phân quyền chặt chẽ.
+
+Phần 2: Đánh giá & Giải pháp cho tin nhắn phẳng
+Tại sao công ty IT chọn Lark/Slack: Giúp thông báo quan trọng không bị vùi lấp, giảm họp hành nhờ cập nhật tiến độ qua Thread và tra cứu tài liệu nhanh chóng.
+
+Giải pháp khắc phục:
+
+Bắt buộc Trả lời theo luồng (Thread) thay vì nhắn tràn lan ở khung chính.
+
+Phân chia rõ Kênh thông báo (chỉ đọc) và Kênh giải trí (#random).
+
+Biến tin nhắn yêu cầu thành Task có deadline cụ thể.

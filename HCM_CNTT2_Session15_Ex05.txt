@@ -1,0 +1,13 @@
+1. Kiến trúc & Bảo mật Cloud
+Cấu trúc thư mục: Chia làm 01_Public, 02_Tech, 03_Marketing, 04_Management trên Shared Drive tập trung.
+
+Phân quyền & Rời nhóm: Tổ chức giữ quyền Owner. Khi Trưởng phòng nghỉ, Admin chuyển quyền quản trị trong 1-click.
+
+Khôi phục khi lỡ xóa sạch (Edge Case): Khôi phục từ Thùng rác Shared Drive (30 ngày) hoặc Version History. Thành viên không có quyền xóa vĩnh viễn thư mục gốc.
+
+2. Quy ước Văn hóa Chat (Asynchronous)
+Không "No-Hello": Nhắn thẳng nội dung + Link + Deadline trong 1 tin (không nhắn "Alo", "Em ơi" rồi chờ).
+
+Hẹn giờ gửi & Dùng @all văn minh: Sau 22h bắt buộc dùng Schedule Send cho sáng hôm sau. Chỉ @all khi có sự cố khẩn cấp.
+
+Thảo luận theo Thread: Bắt buộc Reply in Thread để không làm trôi tin nhắn chung.

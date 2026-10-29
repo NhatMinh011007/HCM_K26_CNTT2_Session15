@@ -1,0 +1,26 @@
+1. Hybrid Workflow & Đồng bộ dữ liệu
+Auto Sync: Ctrl+S tự động đẩy dữ liệu lên Cloud + tạo Version History (phòng hờ hỏng máy, mất file).
+
+Xử lý bẫy dữ liệu: Chặn thư mục node_modules và file rác khỏi bộ nhớ đồng bộ; bật Files On-Demand để tiết kiệm dung lượng SSD.
+
+Khôi phục file: Dùng tính năng Version History để rollback file bị xóa nhầm trong vòng vài giây.
+
+2. Phân quyền bảo mật (Least Privilege)
+Quy tắc vàng: Tuyệt đối không dùng Anyone with the link + Editor cho file chứa thông tin nhạy cảm.
+
+Phân quyền chi tiết theo file:
+
+Báo cáo (cho Giảng viên): Viewer / Restricted (chỉ xem, chống sửa đè).
+
+Slide (cho 5 thành viên): Editor / Restricted (tắt tính năng cho phép Editor tự ý mời người lạ).
+
+Góp ý (cho anh khóa trên): Commenter / Restricted.
+
+Thông tin cá nhân (CCCD, SĐT): Restricted (chỉ Admin/Leader quản lý).
+
+3. Văn hóa giao tiếp nhóm chuẩn Workspace (Lark/Slack)
+Chống "No-Hello": Nhắn thẳng vấn đề, ngữ cảnh, file kèm link và deadline ngay trong 1 tin nhắn.
+
+Tách kênh rõ ràng: Dùng kênh riêng cho thông báo (#thong-bao) và giải trí (#random).
+
+Hẹn giờ & Tag đúng người: Dùng Schedule Send cho tin nhắn ban đêm; tuyệt đối không dùng @all bừa bãi mà tag đích danh (@) người cần xử lý công việc.

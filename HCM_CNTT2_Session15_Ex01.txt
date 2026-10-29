@@ -1,0 +1,13 @@
+Phần 1: 3 hậu quả của cách làm truyền thống
+Mất dữ liệu vĩnh viễn: Ghi đè file (Ctrl+S) là mất luôn, không có bản sao lưu cứu vãn.
+
+Loạn phiên bản: Đặt tên file thủ công (v1, v2_final) và gửi qua Zalo dễ gây nhầm lẫn, ghi đè lẫn nhau.
+
+Áp lực và lãng phí thời gian: Mất thời gian tìm lại code cũ, dễ hoảng loạn khi gặp sự cố.
+
+Phần 2: Giải pháp Hybrid Workflow (1-click khôi phục)
+Dùng Cloud Sync (Google Drive/OneDrive): Đưa thư mục dự án lên mây để dùng Version History khôi phục file cũ ngay trên web.
+
+Bật Local History trong VS Code: Mở mục Timeline ở thanh bên để xem lại các mốc thời gian chỉnh sửa và khôi phục code ngay trong trình soạn thảo.
+
+Dùng Git & GitHub thay cho Zalo: Quản lý mã nguồn nhóm chuyên nghiệp, dễ dàng quay lại các bản ổn định (rollback).
